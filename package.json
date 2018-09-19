@@ -18,5 +18,7 @@
   "bugs": {
     "url": "https://github.com/jinbaozheng/postcss-ketchup/issues"
   },
-  "homepage": "https://github.com/jinbaozheng/postcss-ketchup#readme"
+  "homepage": "https://github.com/jinbaozheng/postcss-ketchup#readme",
+  "dependencies": {
+  }
 }
