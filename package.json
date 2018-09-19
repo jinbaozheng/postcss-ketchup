@@ -1,0 +1,22 @@
+{
+  "name": "postcss-ketchup",
+  "version": "1.0.0",
+  "description": "🍅",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinbaozheng/postcss-ketchup.git"
+  },
+  "keywords": [
+    "ketchup"
+  ],
+  "author": "jinbaozheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinbaozheng/postcss-ketchup/issues"
+  },
+  "homepage": "https://github.com/jinbaozheng/postcss-ketchup#readme"
+}
