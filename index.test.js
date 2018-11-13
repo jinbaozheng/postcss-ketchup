@@ -11,12 +11,12 @@ function run(input, output, opts) {
         // expect(result.css).toEqual(output);
         // expect(result.warnings().length).toBe(0);
         try {
-            fs.writeFile(path.resolve(__dirname, './test/output.css'),
+            fs.writeFile(path.resolve(__dirname, './test/output.scss'),
                 result.css,
                 {},
                 (err) => {
                     if (err) throw err;
-                    console.log('The file has been saved!');
+                    console.log('解析完成');
                 });
         } catch (e) {
             console.log(e);
@@ -35,7 +35,7 @@ it('does something', () => {
 */
 
 test('does something', () => {
-    fs.readFile(path.resolve(__dirname, './test/input.css'),
+    fs.readFile(path.resolve(__dirname, './test/input.scss'),
         'utf8',
         (err, data) => {
             if (err) throw err;
