@@ -1,43 +1,47 @@
 {
-  "name": "postcss-ketchup",
-  "version": "0.0.0",
-  "description": "PostCSS plugin 🍅",
-  "keywords": [
-    "postcss",
-    "css",
-    "postcss-plugin",
-    "ketchup"
-  ],
-  "author": "cuppi <cuppi413@163.com>",
-  "license": "MIT",
-  "repository": "cuppi/postcss-ketchup",
-  "bugs": {
-    "url": "https://github.com/cuppi/postcss-ketchup/issues"
-  },
-  "homepage": "https://github.com/cuppi/postcss-ketchup",
-  "dependencies": {
-    "lodash": "^4.17.11",
-    "postcss": "^6.0.16",
-    "postcss-value-parser": "^3.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-postcss": "^2.0.2",
-    "jest": "^22.4.2",
-    "postcss-loader": "^3.0.0",
-    "stylelint": "^9.8.0",
-    "stylelint-config-standard": "^18.2.0"
-  },
-  "scripts": {
-    "test": "jest && eslint *.js"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-postcss/es5",
-    "env": {
-      "jest": true
-    }
-  },
-  "jest": {
-    "testEnvironment": "node"
+ "name": "postcss-ketchup",
+ "version": "0.0.1",
+ "description": "PostCSS plugin 🍅",
+ "keywords": [
+  "postcss",
+  "css",
+  "postcss-plugin",
+  "ketchup"
+ ],
+ "author": "cuppi <cuppi413@163.com>",
+ "license": "MIT",
+ "repository": "cuppi/postcss-ketchup",
+ "bugs": {
+  "url": "https://github.com/cuppi/postcss-ketchup/issues"
+ },
+ "homepage": "https://github.com/cuppi/postcss-ketchup",
+ "dependencies": {
+  "lodash": "^4.17.11",
+  "postcss": "^6.0.16",
+  "postcss-value-parser": "^3.3.1"
+ },
+ "devDependencies": {
+  "eslint": "^4.18.2",
+  "eslint-config-postcss": "^2.0.2",
+  "jest": "^22.4.2",
+  "postcss-loader": "^3.0.0",
+  "stylelint": "^9.8.0",
+  "stylelint-config-standard": "^18.2.0"
+ },
+ "scripts": {
+  "test": "jest && eslint *.js",
+  "publish-lib": "node ./publish-lib.js"
+ },
+ "eslintConfig": {
+  "extends": "eslint-config-postcss/es5",
+  "env": {
+   "jest": true
   }
+ },
+ "jest": {
+  "testEnvironment": "node"
+ },
+ "publishConfig": {
+  "registry": "https://registry.npmjs.org/"
+ }
 }
