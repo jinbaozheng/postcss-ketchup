@@ -78,7 +78,7 @@ input
     height: 100px;
 }
 ```
-> px2vw's params will ignore declaration margin-top prop when convert px to vw, 
+> px2vw's params will ignore declaration margin-top and padding prop when convert px to vw, 
 and it will exactly keep five decimals, view more config to [Config](#config) 
 .(Do not forget semi-colon in the end)
 
