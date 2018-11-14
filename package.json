@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/cuppi/postcss-ketchup",
   "dependencies": {
+    "lodash": "^4.17.11",
     "postcss": "^6.0.16",
     "postcss-value-parser": "^3.3.1"
   },
