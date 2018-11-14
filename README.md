@@ -24,7 +24,7 @@ npm install postcss-ketchup --save-dev
 
 ## Usage
 
-###config
+### config
 It's easy to get config.
 
 when use postcss-cli:
@@ -65,7 +65,7 @@ for:
 }
 ```
 
-####process
+### process
 
 input
 ```css
