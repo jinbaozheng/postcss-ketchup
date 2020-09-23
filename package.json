@@ -1,53 +1,48 @@
 {
- "name": "postcss-ketchup",
- "version": "0.1.0",
- "description": "PostCSS plugin 🍅",
+  "name": "postcss-ketchup",
+  "version": "0.1.0",
+  "description": "PostCSS plugin 🍅",
   "main": "./src/index.js",
- "keywords": [
-  "postcss",
-  "css",
-  "postcss-plugin",
-  "ketchup"
- ],
- "author": "cuppi <cuppi413@163.com>",
- "license": "MIT",
- "repository": "cuppi/postcss-ketchup",
- "bugs": {
-  "url": "https://github.com/cuppi/postcss-ketchup/issues"
- },
- "homepage": "https://github.com/cuppi/postcss-ketchup",
- "dependencies": {
-  "lodash": "^4.17.20",
-  "postcss-value-parser": "^4.1.0"
- },
- "devDependencies": {
-  "eslint": "^7.9.0",
-  "eslint-config-postcss": "^4.0.0",
-  "jest": "^26.4.2",
-  "postcss-loader": "^4.0.2",
-  "stylelint": "^13.7.1",
-  "stylelint-config-standard": "^20.0.0"
- },
+  "scripts": {
+    "test": "jest && eslint *.js",
+    "publish-lib": "node ./publish-lib.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "postcss-value-parser": "^4.1.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.0.8",
+    "eslint": "^7.9.0",
+    "eslint-config-postcss": "^4.0.0",
+    "jest": "^26.4.2",
+    "postcss-loader": "^4.0.2",
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
   "peerDependencies": {
     "postcss": "^8.0.8"
   },
- "scripts": {
-  "test": "jest && eslint *.js",
-  "publish-lib": "node ./publish-lib.js"
- },
- "eslintConfig": {
-  "extends": "eslint-config-postcss/es5",
-  "env": {
-   "jest": true
-  }
- },
- "jest": {
-  "testEnvironment": "node"
- },
- "publishConfig": {
-  "registry": "https://registry.npmjs.org/"
- },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "ketchup"
+  ],
+  "repository": {
+    "url": "git@github.com:jinbaozheng/postcss-ketchup.git",
+    "type": "git"
+  },
   "engines": {
     "node" : ">=10.13"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/cuppi/postcss-ketchup/issues"
+  },
+  "homepage": "https://github.com/cuppi/postcss-ketchup",
+  "author": "cuppi <cuppi413@163.com>",
+  "license": "MIT"
 }
